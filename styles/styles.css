@@ -1,6 +1,8 @@
 body {
     font-family: 'Rubik', sans-serif;
-    background-color:rgb(101, 205, 254)
+    background-color:rgb(101, 205, 254);
+    max-width: 1040px;
+    width: 75%;
     
 }
 
@@ -8,12 +10,14 @@ h1 {
     font-family: 'Lobster', cursive;
     font-style: oblique;
     font-size: 56px;
+    margin: 20px;
 }
 
 h2 {
     font-weight: lighter;
     font-size: 22px;
     width: 800px;
+    margin: 20px;
 }
 
 h3 {
@@ -23,9 +27,9 @@ h3 {
 
 .card__one {
     display: flex;
-    
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     flex-direction: row;
+    
     
 
 }
@@ -41,8 +45,9 @@ img {
 .card__one__yellow, .card__one__pink, 
 .card__one__green, .card__one__blue {
     background-color: white;
+    border-radius: 10px;
     max-width: 200px;
-    max-height: 400px;
+    max-height: 500px;
     margin: 20px;
     justify-content: flex-start;
     align-items: flex-start;
