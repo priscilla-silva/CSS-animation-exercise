@@ -47,7 +47,7 @@ img {
     background-color: white;
     border-radius: 10px;
     max-width: 200px;
-    max-height: 500px;
+    max-height: 450px;
     margin: 20px;
     justify-content: flex-start;
     align-items: flex-start;
@@ -58,4 +58,52 @@ p {
     position: relative;
     top: -400px;
     align-self: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    /* z-index: 1;
+    position: relative;
+    top: -400px;
+    background-color:rgb(101, 205, 254);
+    margin-left: 40px;
+    padding: 10px; */
+
+}
+
+.btn__yellow, .btn__pink, .btn__green, .btn__blue {
+    z-index: 1;
+    position: relative;
+    top: -400px;
+    background-color:rgb(101, 205, 254);
+    padding: 10px;
+    border-radius: 8px;
+    border:currentColor;
+    
+    
+}
+
+.btn__yellow:hover {
+    background-color: yellow;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn__pink:hover {
+    background-color:deeppink;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn__green:hover {
+    background-color:chartreuse;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn__blue:hover {
+    background-color:royalblue;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
