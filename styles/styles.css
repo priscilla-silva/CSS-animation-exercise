@@ -1,0 +1,56 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color:rgb(101, 205, 254)
+    
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-style: oblique;
+    font-size: 56px;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 22px;
+    width: 800px;
+}
+
+h3 {
+    position: relative;
+    top: -400px;
+}
+
+.card__one {
+    display: flex;
+    
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+
+}
+
+img {
+    transform: scale(.3);
+    position: relative;
+    left: -240px;
+    top: -200px;
+    
+}
+
+.card__one__yellow, .card__one__pink, 
+.card__one__green, .card__one__blue {
+    background-color: white;
+    max-width: 200px;
+    max-height: 400px;
+    margin: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+p {
+    position: relative;
+    top: -400px;
+    align-self: center;
+}
